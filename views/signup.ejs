@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link rel="icon" href="/logo.png" type="text/x-icon">
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <main>
+      <div class="box">
+        <div class="inner-box">
+          <div class="forms-wrap">
+            <form action="/signup" method="post" class="sign-in-form">
+              <div class="logo">
+                <img src="/logo.png" alt="" />
+                <h4>Sals Education</h4>
+              </div>
+
+              <div class="heading">
+                <h2>Get Started</h2>
+              </div>
+
+              <div class="actual-form">
+                <div class="input-wrap">
+                  <input
+                    type="text"
+                    id="name"
+                    name="name"
+                    placeholder="name"
+                    minlength="4"
+                    class="input-field"
+                    autocomplete="off"
+                    required
+                  />
+                </div>
+
+                <div class="input-wrap">
+                  <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    placeholder="email"
+                    minlength="7"
+                    class="input-field"
+                    autocomplete="off"
+                    required
+                  />
+                </div>
+
+                <div class="input-wrap">
+                  <input
+                    type="password"
+                    id="password"
+                    name="password"
+                    placeholder="password"
+                    minlength="4"
+                    class="input-field"
+                    autocomplete="off"
+                    required
+                  />
+                </div>
+
+                <input type="submit" value="Submit" class="sign-btn" />
+                <div class="heading">
+                  <h6>Already have an account?</h6>
+                  <a href="/login" class="toggle">Login</a>
+                </div>
+                <p class="text">
+                  By signing up, I agree to the
+                  <a href="#">Terms of Services</a> and
+                  <a href="#">Privacy Policy</a>
+                </p>
+
+              <div class="social-login">
+                <p>Sign up with</p>
+                <div class="social-icons">
+                  <a href="#" class="social-icon"><img src="/facebook.png" alt="Facebook"></a>
+                  <a href="#" class="social-icon"><img src="/google.png" alt="Google"></a>
+                  <a href="#" class="social-icon"><img src="/twitter.png" alt="Twitter"></a>
+                  <a href="#" class="social-icon"><img src="/linkedin.png" alt="LinkedIn"></a>
+                </div>
+              </div>
+              </div>
+            </form>
+          </div>
+
+          <div class="carousel">
+            <div class="images-wrapper">
+              <img src="/Kids.png" class="image img-1 show" alt="" />
+              <img src="/Lap.png" class="image img-2" alt="" />
+              <img src="/SelftStudy.png" class="image img-3" alt="" />
+            </div>
+
+            <div class="text-slider">
+              <div class="text-wrap">
+                <div class="text-group">
+                  <h2>Create your own courses</h2>
+                  <h2>Customize as you like</h2>
+                  <h2>Empowering minds, one click at a time</h2>
+                </div>
+              </div>
+
+              <div class="bullets">
+                <span class="active" data-value="1"></span>
+                <span data-value="2"></span>
+                <span data-value="3"></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+  <script src="/script.js"></script>
+</html>
